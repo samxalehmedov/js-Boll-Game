@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#general{
+    margin: auto;
+    margin-top: 20px;
+    width: 600px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#sphere{
+    width: 40px;
+    height: 40px;
+    background-color: brown;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+#pavement{
+    width: 100px;
+    height: 20px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -20px;
+}
